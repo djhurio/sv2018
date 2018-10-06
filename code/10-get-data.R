@@ -108,3 +108,8 @@ setorder(tab_dep, -Deputati, -Balsis)
 setcolorder(tab_dep, c("Nr", "Saraksts", "Balsis"))
 
 tab_dep
+
+
+# Results
+
+fwrite(tab_dep, "results/tab_dep.csv")
