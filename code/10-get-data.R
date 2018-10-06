@@ -111,11 +111,11 @@ tab_dep_apg
 
 
 tab_dep <- merge(dat[i <= Deputati, .(Deputati = .N), by = .(Nr, Saraksts)],
-                 dat_rez_part[, .(Nr, Balsis = Zīmes)],
+                 dat_rez_part[, .(Nr, Balsis = Zīmes, Procenti)],
                  by = "Nr")
 
 setorder(tab_dep, -Deputati, -Balsis)
-setcolorder(tab_dep, c("Nr", "Saraksts", "Balsis"))
+setcolorder(tab_dep, c("Nr", "Saraksts", "Balsis", "Procenti"))
 
 tab_dep
 
