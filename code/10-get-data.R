@@ -91,7 +91,7 @@ dat[, Dalijums := Balsis / Dalitajs]
 
 setorder(dat, Apgabals, -Dalijums)
 
-anyDuplicated(dat, by = c("Apgabals", "Dalijums"))
+if (anyDuplicated(dat, by = c("Apgabals", "Dalijums")) > 0) stop("Dubl")
 
 dat[, i := 1:.N, by = .(Apgabals)]
 
@@ -110,6 +110,16 @@ setcolorder(tab_dep, c("Nr", "Saraksts", "Balsis"))
 tab_dep
 
 
+tab_dep_apg <- merge(dat[i <= Deputati, .(Deputati = .N), by = .(Apgabals, Nr, Saraksts)],
+                     dat_rez_part_apg, by = c("Apgabals","Nr"))
+
+setorder(tab_dep_apg, Apgabals, -Deputati, -Balsis)
+setcolorder(tab_dep_apg, c("Apgabals", "Nr", "Saraksts", "Balsis"))
+
+tab_dep_apg
+
+
 # Results
 
 fwrite(tab_dep, "results/tab_dep.csv")
+fwrite(tab_dep_apg, "results/tab_dep_apg.csv")
