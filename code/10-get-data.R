@@ -100,15 +100,6 @@ dat[i <= Deputati]
 sapply(dat_rez_part, class)
 sapply(dat, class)
 
-tab_dep <- merge(dat[i <= Deputati, .(Deputati = .N), by = .(Nr, Saraksts)],
-                 dat_rez_part[, .(Nr, Balsis = Zīmes)],
-                 by = "Nr")
-
-setorder(tab_dep, -Deputati, -Balsis)
-setcolorder(tab_dep, c("Nr", "Saraksts", "Balsis"))
-
-tab_dep
-
 
 tab_dep_apg <- merge(dat[i <= Deputati, .(Deputati = .N), by = .(Apgabals, Nr, Saraksts)],
                      dat_rez_part_apg, by = c("Apgabals","Nr"))
@@ -117,6 +108,16 @@ setorder(tab_dep_apg, Apgabals, -Deputati, -Balsis)
 setcolorder(tab_dep_apg, c("Apgabals", "Nr", "Saraksts", "Balsis"))
 
 tab_dep_apg
+
+
+tab_dep <- merge(dat[i <= Deputati, .(Deputati = .N), by = .(Nr, Saraksts)],
+                 dat_rez_part[, .(Nr, Balsis = Zīmes)],
+                 by = "Nr")
+
+setorder(tab_dep, -Deputati, -Balsis)
+setcolorder(tab_dep, c("Nr", "Saraksts", "Balsis"))
+
+tab_dep
 
 
 # Results
