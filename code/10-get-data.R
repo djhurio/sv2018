@@ -20,13 +20,13 @@ dat_kand[, c("Nr", "Saraksts") := data.table(stri_split_fixed(`Kandidātu saraks
                                                               simplify = T))]
 dat_kand[, Nr := as.integer(Nr)]
 
-dat_kand_2 <- dat_kand[, .(Apgabals = `Vēlēšanu apgabals`, Nr, Saraksts)]
+dat_kand_2 <- dat_kand[, .(Apgabals = `Vēlēšanu apgabals`, Nr, Saraksts,
+                           Vards = `Vārds, uzvārds`,
+                           Kand_Nr = `Kārtas nr. sarakstā`)]
 
-setorder(dat_kand_2, Apgabals, Nr)
+setorder(dat_kand_2, Apgabals, Nr, Kand_Nr)
 
 dat_kand_2[, Dalitajs := 2 * (1:.N) - 1, by = .(Apgabals, Nr)]
-
-dat_kand_2[, .N, keyby = .(Nr, Saraksts, Apgabals)][grep("kons|KPV", Saraksts)]
 
 
 
@@ -119,8 +119,20 @@ setcolorder(tab_dep, c("Nr", "Saraksts", "Balsis", "Procenti"))
 
 tab_dep
 
+tab_dep[, Nr]
+
+tab_dep100 <- dat[i <= Deputati, .(Nr, Saraksts, Apgabals, Kand_Nr, Vards)]
+
+tab_dep100[, Nr := factor(Nr, tab_dep[, Nr], tab_dep[, Nr])]
+
+setorder(tab_dep100, Nr, Apgabals, Kand_Nr)
+
 
 # Results
 
 fwrite(tab_dep, "results/tab_dep.csv")
 fwrite(tab_dep_apg, "results/tab_dep_apg.csv")
+fwrite(tab_dep100, "results/tab_dep100.csv")
+
+
+tab_dep
