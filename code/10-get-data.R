@@ -117,10 +117,6 @@ tab_dep <- merge(dat[i <= Deputati, .(Deputati = .N), by = .(Nr, Saraksts)],
 setorder(tab_dep, -Deputati, -Balsis)
 setcolorder(tab_dep, c("Nr", "Saraksts", "Balsis", "Procenti"))
 
-tab_dep
-
-tab_dep[, Nr]
-
 tab_dep100 <- dat[i <= Deputati, .(Nr, Saraksts, Apgabals, Kand_Nr, Vards)]
 
 tab_dep100[, Nr := factor(Nr, tab_dep[, Nr], tab_dep[, Nr])]
