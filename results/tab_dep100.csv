@@ -17,12 +17,27 @@ Nr,Saraksts,Apgabals,Kand_Nr,Vards
 9,"""Saskaņa"" sociāldemokrātiskā partija",Rīga,9,Boriss Cilevičs
 9,"""Saskaņa"" sociāldemokrātiskā partija",Rīga,10,Jūlija Stepaņenko
 9,"""Saskaņa"" sociāldemokrātiskā partija",Rīga,11,Sergejs Mirskis
-9,"""Saskaņa"" sociāldemokrātiskā partija",Rīga,12,Andrejs Kozlovs
 9,"""Saskaņa"" sociāldemokrātiskā partija",Vidzeme,1,Evija Papule
 9,"""Saskaņa"" sociāldemokrātiskā partija",Vidzeme,2,Guntars Grīnvalds
 9,"""Saskaņa"" sociāldemokrātiskā partija",Vidzeme,3,Sergejs Dolgopolovs
 9,"""Saskaņa"" sociāldemokrātiskā partija",Zemgale,1,Ivars Zariņš
 9,"""Saskaņa"" sociāldemokrātiskā partija",Zemgale,2,Vitālijs Orlovs
+15,"Politiskā partija ""KPV LV""",Kurzeme,1,Atis Zakatistovs
+15,"Politiskā partija ""KPV LV""",Kurzeme,2,Ramona Petraviča
+15,"Politiskā partija ""KPV LV""",Kurzeme,3,Ēriks Pucens
+15,"Politiskā partija ""KPV LV""",Latgale,1,Roberts Spručs
+15,"Politiskā partija ""KPV LV""",Rīga,1,Artuss Kaimiņš
+15,"Politiskā partija ""KPV LV""",Rīga,2,Iveta Benhena-Bēkena
+15,"Politiskā partija ""KPV LV""",Rīga,3,Didzis Šmits
+15,"Politiskā partija ""KPV LV""",Rīga,4,Aleksandrs Lapajevs
+15,"Politiskā partija ""KPV LV""",Rīga,5,Romans Justs
+15,"Politiskā partija ""KPV LV""",Vidzeme,1,Linda Liepiņa
+15,"Politiskā partija ""KPV LV""",Vidzeme,2,Māris Možvillo
+15,"Politiskā partija ""KPV LV""",Vidzeme,3,Aldis Blumbergs
+15,"Politiskā partija ""KPV LV""",Vidzeme,4,Ainārs Vilciņš
+15,"Politiskā partija ""KPV LV""",Zemgale,1,Kaspars Ģirģens
+15,"Politiskā partija ""KPV LV""",Zemgale,2,Ralfs Nemiro
+15,"Politiskā partija ""KPV LV""",Zemgale,3,Aivars Geidāns
 2,Jaunā konservatīvā partija,Kurzeme,1,Juris Jurašs
 2,Jaunā konservatīvā partija,Kurzeme,2,Ieva Akuratere
 2,Jaunā konservatīvā partija,Latgale,1,Ilga Šuplinska
@@ -39,21 +54,6 @@ Nr,Saraksts,Apgabals,Kand_Nr,Vards
 2,Jaunā konservatīvā partija,Vidzeme,5,Anita Muižniece
 2,Jaunā konservatīvā partija,Zemgale,1,Krišjānis Feldmans
 2,Jaunā konservatīvā partija,Zemgale,2,Sandis Riekstiņš
-15,"Politiskā partija ""KPV LV""",Kurzeme,1,Atis Zakatistovs
-15,"Politiskā partija ""KPV LV""",Kurzeme,2,Ramona Petraviča
-15,"Politiskā partija ""KPV LV""",Kurzeme,3,Ēriks Pucens
-15,"Politiskā partija ""KPV LV""",Latgale,1,Roberts Spručs
-15,"Politiskā partija ""KPV LV""",Rīga,1,Artuss Kaimiņš
-15,"Politiskā partija ""KPV LV""",Rīga,2,Iveta Benhena-Bēkena
-15,"Politiskā partija ""KPV LV""",Rīga,3,Didzis Šmits
-15,"Politiskā partija ""KPV LV""",Rīga,4,Aleksandrs Lapajevs
-15,"Politiskā partija ""KPV LV""",Vidzeme,1,Linda Liepiņa
-15,"Politiskā partija ""KPV LV""",Vidzeme,2,Māris Možvillo
-15,"Politiskā partija ""KPV LV""",Vidzeme,3,Aldis Blumbergs
-15,"Politiskā partija ""KPV LV""",Vidzeme,4,Ainārs Vilciņš
-15,"Politiskā partija ""KPV LV""",Zemgale,1,Kaspars Ģirģens
-15,"Politiskā partija ""KPV LV""",Zemgale,2,Ralfs Nemiro
-15,"Politiskā partija ""KPV LV""",Zemgale,3,Aivars Geidāns
 10,Attīstībai/Par!,Kurzeme,1,Juris Pūce
 10,Attīstībai/Par!,Latgale,1,Mārtiņš Bondars
 10,Attīstībai/Par!,Rīga,1,Daniels Pavļuts
