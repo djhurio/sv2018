@@ -6,7 +6,6 @@ Nr,Saraksts,Apgabals,Kand_Nr,Vards
 9,"""Saskaņa"" sociāldemokrātiskā partija",Latgale,4,Ivans Ribakovs
 9,"""Saskaņa"" sociāldemokrātiskā partija",Latgale,5,Jānis Tutins
 9,"""Saskaņa"" sociāldemokrātiskā partija",Latgale,6,Vladimirs Nikonovs
-9,"""Saskaņa"" sociāldemokrātiskā partija",Latgale,7,Raimonds Rubiks
 9,"""Saskaņa"" sociāldemokrātiskā partija",Rīga,1,Vjačeslavs Dombrovskis
 9,"""Saskaņa"" sociāldemokrātiskā partija",Rīga,2,Jānis Urbanovičs
 9,"""Saskaņa"" sociāldemokrātiskā partija",Rīga,3,Andrejs Klementjevs
@@ -17,11 +16,29 @@ Nr,Saraksts,Apgabals,Kand_Nr,Vards
 9,"""Saskaņa"" sociāldemokrātiskā partija",Rīga,8,Ļubova Švecova
 9,"""Saskaņa"" sociāldemokrātiskā partija",Rīga,9,Boriss Cilevičs
 9,"""Saskaņa"" sociāldemokrātiskā partija",Rīga,10,Jūlija Stepaņenko
+9,"""Saskaņa"" sociāldemokrātiskā partija",Rīga,11,Sergejs Mirskis
+9,"""Saskaņa"" sociāldemokrātiskā partija",Rīga,12,Andrejs Kozlovs
 9,"""Saskaņa"" sociāldemokrātiskā partija",Vidzeme,1,Evija Papule
 9,"""Saskaņa"" sociāldemokrātiskā partija",Vidzeme,2,Guntars Grīnvalds
 9,"""Saskaņa"" sociāldemokrātiskā partija",Vidzeme,3,Sergejs Dolgopolovs
 9,"""Saskaņa"" sociāldemokrātiskā partija",Zemgale,1,Ivars Zariņš
 9,"""Saskaņa"" sociāldemokrātiskā partija",Zemgale,2,Vitālijs Orlovs
+2,Jaunā konservatīvā partija,Kurzeme,1,Juris Jurašs
+2,Jaunā konservatīvā partija,Kurzeme,2,Ieva Akuratere
+2,Jaunā konservatīvā partija,Latgale,1,Ilga Šuplinska
+2,Jaunā konservatīvā partija,Latgale,2,Andris Kazinovskis
+2,Jaunā konservatīvā partija,Rīga,1,Juta Strīķe
+2,Jaunā konservatīvā partija,Rīga,2,Gatis Eglītis
+2,Jaunā konservatīvā partija,Rīga,3,Linda Ozola
+2,Jaunā konservatīvā partija,Rīga,4,Tālis Linkaits
+2,Jaunā konservatīvā partija,Rīga,5,Reinis Znotiņš
+2,Jaunā konservatīvā partija,Vidzeme,1,Jānis Bordāns
+2,Jaunā konservatīvā partija,Vidzeme,2,Dagmāra Beitnere-Le Galla
+2,Jaunā konservatīvā partija,Vidzeme,3,Evita Zālīte-Grosa
+2,Jaunā konservatīvā partija,Vidzeme,4,Normunds Žunna
+2,Jaunā konservatīvā partija,Vidzeme,5,Anita Muižniece
+2,Jaunā konservatīvā partija,Zemgale,1,Krišjānis Feldmans
+2,Jaunā konservatīvā partija,Zemgale,2,Sandis Riekstiņš
 15,"Politiskā partija ""KPV LV""",Kurzeme,1,Atis Zakatistovs
 15,"Politiskā partija ""KPV LV""",Kurzeme,2,Ramona Petraviča
 15,"Politiskā partija ""KPV LV""",Kurzeme,3,Ēriks Pucens
@@ -34,32 +51,16 @@ Nr,Saraksts,Apgabals,Kand_Nr,Vards
 15,"Politiskā partija ""KPV LV""",Vidzeme,2,Māris Možvillo
 15,"Politiskā partija ""KPV LV""",Vidzeme,3,Aldis Blumbergs
 15,"Politiskā partija ""KPV LV""",Vidzeme,4,Ainārs Vilciņš
-15,"Politiskā partija ""KPV LV""",Vidzeme,5,Ieva Krapāne
 15,"Politiskā partija ""KPV LV""",Zemgale,1,Kaspars Ģirģens
 15,"Politiskā partija ""KPV LV""",Zemgale,2,Ralfs Nemiro
 15,"Politiskā partija ""KPV LV""",Zemgale,3,Aivars Geidāns
-2,Jaunā konservatīvā partija,Kurzeme,1,Juris Jurašs
-2,Jaunā konservatīvā partija,Kurzeme,2,Ieva Akuratere
-2,Jaunā konservatīvā partija,Latgale,1,Ilga Šuplinska
-2,Jaunā konservatīvā partija,Latgale,2,Andris Kazinovskis
-2,Jaunā konservatīvā partija,Rīga,1,Juta Strīķe
-2,Jaunā konservatīvā partija,Rīga,2,Gatis Eglītis
-2,Jaunā konservatīvā partija,Rīga,3,Linda Ozola
-2,Jaunā konservatīvā partija,Rīga,4,Tālis Linkaits
-2,Jaunā konservatīvā partija,Vidzeme,1,Jānis Bordāns
-2,Jaunā konservatīvā partija,Vidzeme,2,Dagmāra Beitnere-Le Galla
-2,Jaunā konservatīvā partija,Vidzeme,3,Evita Zālīte-Grosa
-2,Jaunā konservatīvā partija,Vidzeme,4,Normunds Žunna
-2,Jaunā konservatīvā partija,Vidzeme,5,Anita Muižniece
-2,Jaunā konservatīvā partija,Zemgale,1,Krišjānis Feldmans
-2,Jaunā konservatīvā partija,Zemgale,2,Sandis Riekstiņš
 10,Attīstībai/Par!,Kurzeme,1,Juris Pūce
-10,Attīstībai/Par!,Kurzeme,2,Dace Bluķe
 10,Attīstībai/Par!,Latgale,1,Mārtiņš Bondars
 10,Attīstībai/Par!,Rīga,1,Daniels Pavļuts
 10,Attīstībai/Par!,Rīga,2,Mārtiņš Staķis
 10,Attīstībai/Par!,Rīga,3,Vita Anda Tērauda
 10,Attīstībai/Par!,Rīga,4,Marija Golubeva
+10,Attīstībai/Par!,Rīga,5,Krista Baumane
 10,Attīstībai/Par!,Vidzeme,1,Artis Pabriks
 10,Attīstībai/Par!,Vidzeme,2,Andris Skride
 10,Attīstībai/Par!,Vidzeme,3,Dace Rukšāne-Ščipčinska
@@ -72,30 +73,29 @@ Nr,Saraksts,Apgabals,Kand_Nr,Vards
 4,"Nacionālā apvienība ""Visu Latvijai!""-""Tēvzemei un Brīvībai/LNNK""",Rīga,1,Dace Melbārde
 4,"Nacionālā apvienība ""Visu Latvijai!""-""Tēvzemei un Brīvībai/LNNK""",Rīga,2,Rihards Kols
 4,"Nacionālā apvienība ""Visu Latvijai!""-""Tēvzemei un Brīvībai/LNNK""",Rīga,3,Ritvars Jansons
+4,"Nacionālā apvienība ""Visu Latvijai!""-""Tēvzemei un Brīvībai/LNNK""",Rīga,4,Aleksandrs Kiršteins
 4,"Nacionālā apvienība ""Visu Latvijai!""-""Tēvzemei un Brīvībai/LNNK""",Vidzeme,1,Raivis Dzintars
 4,"Nacionālā apvienība ""Visu Latvijai!""-""Tēvzemei un Brīvībai/LNNK""",Vidzeme,2,Ināra Mūrniece
 4,"Nacionālā apvienība ""Visu Latvijai!""-""Tēvzemei un Brīvībai/LNNK""",Vidzeme,3,Jānis Dombrava
 4,"Nacionālā apvienība ""Visu Latvijai!""-""Tēvzemei un Brīvībai/LNNK""",Vidzeme,4,Raivis Zeltīts
 4,"Nacionālā apvienība ""Visu Latvijai!""-""Tēvzemei un Brīvībai/LNNK""",Zemgale,1,Edvīns Šnore
 4,"Nacionālā apvienība ""Visu Latvijai!""-""Tēvzemei un Brīvībai/LNNK""",Zemgale,2,Imants Parādnieks
-4,"Nacionālā apvienība ""Visu Latvijai!""-""Tēvzemei un Brīvībai/LNNK""",Zemgale,3,Inguna Rībena
 16,Zaļo un Zemnieku savienība,Kurzeme,1,Gundars Daudze
 16,Zaļo un Zemnieku savienība,Kurzeme,2,Aija Barča
 16,Zaļo un Zemnieku savienība,Latgale,1,Jānis Dūklavs
 16,Zaļo un Zemnieku savienība,Latgale,2,Jānis Trupovnieks
-16,Zaļo un Zemnieku savienība,Latgale,3,Līga Kozlovska
 16,Zaļo un Zemnieku savienība,Rīga,1,Dana Reizniece-Ozola
 16,Zaļo un Zemnieku savienība,Rīga,2,Edgars Tavars
 16,Zaļo un Zemnieku savienība,Vidzeme,1,Māris Kučinskis
 16,Zaļo un Zemnieku savienība,Vidzeme,2,Raimonds Bergmanis
 16,Zaļo un Zemnieku savienība,Vidzeme,3,Armands Krauze
-16,Zaļo un Zemnieku savienība,Vidzeme,4,Jānis Lediņš
 16,Zaļo un Zemnieku savienība,Zemgale,1,Augusts Brigmanis
 16,Zaļo un Zemnieku savienība,Zemgale,2,Uldis Augulis
 13,Jaunā VIENOTĪBA,Kurzeme,1,Arvils Ašeradens
 13,Jaunā VIENOTĪBA,Latgale,1,Aldis Adamovičs
 13,Jaunā VIENOTĪBA,Rīga,1,Edgars Rinkēvičs
 13,Jaunā VIENOTĪBA,Rīga,2,Rihards Kozlovskis
+13,Jaunā VIENOTĪBA,Rīga,3,Kārlis Šadurskis
 13,Jaunā VIENOTĪBA,Vidzeme,1,Inese Lībiņa-Egnere
 13,Jaunā VIENOTĪBA,Vidzeme,2,Jānis Upenieks
 13,Jaunā VIENOTĪBA,Zemgale,1,Jānis Reirs

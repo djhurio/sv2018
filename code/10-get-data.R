@@ -75,7 +75,7 @@ dat_rez_part[, .(Nr, Balsis = Zīmes)]
 dat_kand_2[, .N, keyby = .(Apgabals)]
 
 dat_dep <- data.table(Apgabals = c("Rīga", "Vidzeme", "Latgale", "Zemgale", "Kurzeme"),
-                      Deputati = c(29, 27, 16, 15, 13))
+                      Deputati = c(35, 25, 14, 14, 12))
 dat_dep
 dat_dep[, sum(Deputati)]
 
